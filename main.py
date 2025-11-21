@@ -17,8 +17,10 @@ def main() -> None:
         run_app(simulation)
     finally:
         database.close()
+        print("Gerenciador de aquario encerrado.")
 
 
 if __name__ == "__main__":
+    print("Iniciando gerenciador de aquario.")
     main()
 
